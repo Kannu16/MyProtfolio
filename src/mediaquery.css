@@ -1,0 +1,73 @@
+@media only screen and (max-width: 900px) {
+    .hero-container-inner {
+      flex-direction: column;
+      width: 90%;
+    }
+    .developer-image{
+        margin-bottom: 50px;
+        margin-bottom: 50px;
+        width: 11rem;
+        margin-left: -47px;
+    }
+    .skills-card{
+      margin: 10px 0;
+    }
+    .contactus-container{
+      flex-direction: column!important;
+    }
+    .conatct-us-image-container{
+      width: 90%!important;
+    }
+
+  }
+  @media only screen and (max-width: 991px) {
+     .dark-switch{
+      display: block!important;
+      margin-left: 0px!important;
+     }
+     .dark-switch-bottom{
+      display: none;
+     }
+     .my-name-animation{
+      display: none;
+     }
+     .my-project-card{
+      width: 40%!important;
+      margin-top: 20px;
+     }
+  }
+  @media only screen and (max-width: 500px) {
+  
+    .my-skils{
+      margin-left: 0!important;
+      margin-right: 0!important;
+      width: 80px;
+    }
+    .project-container{
+      justify-content: center;
+    }
+    .contactus-container{
+      width: 100%!important;
+    }
+    .skills-card{
+      margin: 10px 0;
+    }
+    .skills-box{
+      justify-content: center;
+    }
+    .contactus-form-container{
+      width: 100%!important;
+    }
+
+  }
+
+  @media only screen and (max-width: 570px) {
+  
+    .my-project-card{
+      width: 100%!important;
+      margin-left: 0!important;
+     }
+     .project-container{
+      flex-direction: column!important;
+     }
+  }
