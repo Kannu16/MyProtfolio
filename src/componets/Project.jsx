@@ -2,6 +2,7 @@ import React from "react";
 import YouTube from "../Images/YouTube_Project.png";
 import Hire_startup from "../Images/Hire_startup.png";
 import Chat_GPT from "../Images/Chat_GPT.png";
+import HI_CODER from "../Images/HI_CODER.png";
 import { useSelector } from "react-redux";
 import Github from "../Images/Github.png";
 
@@ -37,6 +38,15 @@ const Project = () => {
         "This ChatGPT clone, powered by React.js and Rapid API, offers features like search history and customizable API integration for users",
       github_link: "https://github.com/Kannu16/ChatGPT_Clone",
     },
+    {
+      image: HI_CODER,
+      projectname: "HiCoder clone",
+      projectLink: "https://kannu16.github.io/Hicoderwebapp/",
+      stackUsed: ["react", "BootStrap"],
+      description:
+        "This project was part of the internship screening round. It is a fully responsive website clone",
+      github_link: "https://github.com/Kannu16/Hicoderwebapp",
+    },
   ];
 
   return (
@@ -70,7 +80,7 @@ const Project = () => {
           } = itmes;
           return (
             <div
-              className="my-project-card rounded-bottom ms-3 w-25 p-2"
+              className="my-project-card rounded-bottom ms-3 w-25 p-2 my-2"
               data-aos="flip-left"
               data-aos-duration="800"
               key={index}
